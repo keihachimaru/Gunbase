@@ -16,6 +16,7 @@
     border: 1px solid #555;
     color: #ccc;
     user-select: none;
+    margin-bottom: 20px;
 }
 .kit {
     display: flex;

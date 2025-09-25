@@ -8,7 +8,7 @@ const Kit: React.FC<KitProps> = ({ info }) => {
     const anyImage = info.galleries[0].url
     return (
       <div className="kit" id={'kit-'+info.id}>
-        <p className="kit-name">{info.name}</p>
+        <a href={'kits/'+info.id.toString()} className="kit-name">{info.name}</a>
         <div className="kit-card">
             <div className="back-face">
                 <p>Grade : {info.grade}</p>
