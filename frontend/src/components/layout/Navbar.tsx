@@ -10,8 +10,8 @@ const Navbar: React.FC = () => {
       <div className="links-wrapper">
         <a href="/kits">Kits</a>
         <a href="/guide">Guide</a>
-        <a href="/profile">Profile</a>
         <a href="/lines">Lines</a>
+        <a href="/profile">Profile</a>
         <a href="/login">Login</a>
       </div>
     </nav>

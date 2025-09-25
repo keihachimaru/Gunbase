@@ -1,0 +1,38 @@
+#guide {
+    color: white;
+}
+.hero{
+    margin-top: 120px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+}
+.description {
+    background: rgba(155,155,155,.1);
+    max-width: 500px;
+    padding: 10px 20px 20px 20px;
+    border-radius: 20px;
+}
+.index {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    margin-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-right: 50px;
+    overflow: hidden;
+}
+.index-item a {
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.index-item p {
+    color: #888;
+    margin: 0;
+    padding: 0;
+}
+.contents {
+    padding: 30px 50px 100px 50px;
+}
