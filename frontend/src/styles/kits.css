@@ -1,11 +1,19 @@
 #kits {
     position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
 }
 .kits-container {
-    margin-top: 100px;
-    height: calc(100vh - 100px);
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    gap: 40px;
+    max-width: 1000px;
+    padding-bottom: 100px;
+    
+}
+#navbar {
+    position: absolute;
 }

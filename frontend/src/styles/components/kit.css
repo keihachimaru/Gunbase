@@ -1,4 +1,56 @@
-.kit img {
-    height: 300px;
+.box-art {
+    height: 200px;
     width: 300px;
 }
+.kit-name {
+    height: 70px;
+    text-align: center;
+    background: #222;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #555;
+    color: #ccc;
+    user-select: none;
+}
+.kit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+.back-face {
+    height: 200px;
+    width: 300px;
+    background: #151515;
+    border-radius: 5px;
+    border: 1px solid #222;
+    outline: 2px solid #090909;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+    cursor: pointer;
+}
+.back-face p {
+    margin: 0;
+    padding: 0;
+}
+
+.kit-card:hover .back-face {
+    display: flex;
+}
+.kit-card:hover .box-art {
+    display: none;
+}
+.kit-name:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px rgb(79,255, 255, .5);
+    color: rgb(79, 255, 255);
+}
+
