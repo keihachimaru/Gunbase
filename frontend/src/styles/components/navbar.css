@@ -1,0 +1,33 @@
+.navbar-container {
+    background: rgb(79, 255, 255, .3);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+}
+.gunbase-logo-wrapper {
+    height: 80px;
+    width: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links-wrapper {
+    display: flex;
+    margin-right: 30px;
+    flex: 1;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 800px;
+}
+a {
+    color: #eee;
+}
