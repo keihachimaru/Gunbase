@@ -1,0 +1,11 @@
+#home {
+    position: relative;
+}
+h1 {
+    color: white;
+    font-size: 32px;
+}
+#latest, #news, #about {
+    margin: 30px;
+    width: calc(100% - 100px);
+}
